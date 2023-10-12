@@ -1,6 +1,7 @@
 h1 {
     color:#ffc0cb;
-    text-align: center;    
+    text-align: center;
+        
 }
 
 h2 {
@@ -8,11 +9,16 @@ h2 {
 }
 
 h3 {color:#ffc0cb;
+    font-style: italic;
+    text-decoration: underline;
+
 }
 
 body {background-color: white;
 }
 
 p {
-    color:gray
+    color:gray;
+    
+    
 }
