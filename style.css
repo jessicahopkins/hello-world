@@ -1,17 +1,17 @@
-h1 {
-    color:#ffc0cb;
-    text-align: center;
-        
-}
-
-h2 {
+nav {
     background-color:#ffc0cb;
 }
+
+
+h1 {
+    color:#ffc0cb;
+    text-align: center;      
+}
+
 
 h3 {color:#ffc0cb;
     font-style: italic;
     text-decoration: underline;
-
 }
 
 body {background-color: white;
@@ -19,6 +19,11 @@ body {background-color: white;
 
 p {
     color:gray;
+    width: 480px;     
+}
+
+img {
     
-    
+    width: 480px; 
+    height: auto;  
 }
