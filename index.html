@@ -4,6 +4,8 @@
     <title>Pet Space</title>
     <link rel="stylesheet" href="style.css">
   </head>
+  <script> alert('Welcome to Pet Space!');</script>
+
   <body>
     <header>
       <h1>Pet Space</h1>
@@ -17,8 +19,8 @@
     <main>
 
       <section>
-        <h3>Pet Parent</h3>
-        <img src="https://fakeimg.pl/468x312" alt="Picture of pet parent with pets" >
+        <h3>About Jessica</h3>
+        <img src="MyFurBabies.jpg" alt="Picture of Jessica with dogs at the beach" >
         <p>Insert bio of pet parent</p>
       </section>
 
@@ -34,7 +36,25 @@
         <p>Description of Pet 2:  Breed, Age, Temperament, other.</p>
       </section>
 
+      <script>
+        let petName = prompt("What is your pet's name?");
+        document.write(petName);
+        </script>
+
     </main>
+
+    <footer>
+
+      <script>
+        let petLove = prompt("Do you love your pet?  Enter 1 for YES or 2 for NO");
+        if(petLove == 1){
+          document.write("You are a great pet parent!");
+        } else if (petLove == 2){
+          document.write("Leave my page!");
+          }
+      </script>
+
+    </footer>
 
   </body>
 </html>
