@@ -3,8 +3,9 @@
   <head>
     <title>Pet Space</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
   </head>
-  <script> alert('Welcome to Pet Space!');</script>
+  
 
   <body>
     <header>
@@ -37,8 +38,8 @@
       </section>
 
       <script>
-        let petName = prompt("What is your pet's name?");
-        document.write(petName);
+         let theirName = getPetName();
+         greetPet(theirName);
         </script>
 
     </main>
@@ -46,12 +47,8 @@
     <footer>
 
       <script>
-        let petLove = prompt("Do you love your pet?  Enter 1 for YES or 2 for NO");
-        if(petLove == 1){
-          document.write("You are a great pet parent!");
-        } else if (petLove == 2){
-          document.write("Leave my page!");
-          }
+        let theirLove = petLove();
+        specialMessage(theirLove)
       </script>
 
     </footer>
