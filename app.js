@@ -22,4 +22,12 @@ function specialMessage(love){
         document.write('Leave my page!');
         }
 }
+
+function howManyStars(){
+    let numOfStars = prompt('How many stars would you rate this page, 1-5?');
+
+    for(let i = 0; i < numOfStars; i++){
+        document.write("<img src='goldstar.jpg' alt='gold star rating' >")
+    }
+}
     
