@@ -1,5 +1,6 @@
 nav {
     background-color:#ffc0cb;
+    height: 125px;
 }
 
 
@@ -26,4 +27,10 @@ img {
     
     width: 480px; 
     height: auto;  
+}
+
+footer {
+
+    background-color: #ffc0cb;
+    height: 125px;
 }
