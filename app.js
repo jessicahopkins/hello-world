@@ -4,7 +4,10 @@ function getPetName(){
 }
 
 function greetPet(name){
-    document.write('Welcome ' + name + '!');
+    if(name == ''){
+        name = prompt('Please tell me their name!');
+    }
+    document.write(name + ' is an awesome name!');
 }
 
 function petLove(){
